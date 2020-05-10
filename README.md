@@ -1,2 +1,2 @@
 # Devops_Codes
-Codes are written using terraform and ansible
+Infrastructure implementation is done using terraform and downloaded wordpress site using script
