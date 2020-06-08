@@ -11,7 +11,8 @@ sudo systemctl restart apache2
 sudo apt-get install mysql-server -y
 mysql_secure_installation
 sudo service mysqld start
-mysql -u root -p
+sudo mysql -u root -p
+#press enter when prompted for password
 create user 'wordpressuser'@'localhost' identified by 'Admin@123';
 create database 'wordpress-db';
 grant all privileges on 'wordpress-db'.* to "wordpressuser"@"localhost";
